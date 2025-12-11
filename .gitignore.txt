@@ -1,3 +1,6 @@
+# Packages folder
+packages/
+
 # Visual Studio
 .vs/
 *.suo
