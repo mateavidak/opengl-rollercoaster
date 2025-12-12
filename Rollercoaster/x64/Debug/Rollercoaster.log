@@ -1,0 +1,3 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (Rollercoaster\x64\Debug\) contains files shared from another project (Rollercoaster.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Renderer.cpp
+  Rollercoaster.vcxproj -> C:\Users\Asus\Desktop\opengl-rollercoaster\x64\Debug\Rollercoaster.exe

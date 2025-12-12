@@ -96,12 +96,12 @@ void initVAOs() {
 
 void initRenderer() {
     // Ucitavanje tekstura
-    preprocessTexture(backgroundTexture, "res/background.png");  
-    preprocessTexture(passengerTexture, "res/person.png");
-    preprocessTexture(carTexture, "res/car.png");
-    preprocessTexture(beltTexture, "res/belt.png");
-    preprocessTexture(infoTexture, "res/info.png");
-    preprocessTexture(sickPassengerTexture, "res/sick person.png");
+    preprocessTexture(backgroundTexture, "Resources/background.png");  
+    preprocessTexture(passengerTexture, "Resources/person.png");
+    preprocessTexture(carTexture, "Resources/car.png");
+    preprocessTexture(beltTexture, "Resources/belt.png");
+    preprocessTexture(infoTexture, "Resources/info.png");
+    preprocessTexture(sickPassengerTexture, "Resources/sick person.png");
 
     // Kreiranje shader programa
     rectShader = createShader("rect.vert", "rect.frag");

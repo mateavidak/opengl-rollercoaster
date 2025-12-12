@@ -51,4 +51,27 @@
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\belt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\car.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\cursor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\info.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\person.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\sick person.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

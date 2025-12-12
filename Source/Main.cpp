@@ -232,7 +232,7 @@ int main()
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     // ✅ UČITAVANJE KURSORA
-    railCursor = loadImageToCursor("res/cursor.png");
+    railCursor = loadImageToCursor("Resources/cursor.png");
     if (railCursor) {
         glfwSetCursor(window, railCursor);
         std::cout << "OK: Ucitan kursor!" << std::endl;

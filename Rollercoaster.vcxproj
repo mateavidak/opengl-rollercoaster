@@ -140,6 +140,15 @@
     <None Include="rect.frag" />
     <None Include="rect.vert" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\background.png" />
+    <Image Include="Resources\belt.png" />
+    <Image Include="Resources\car.png" />
+    <Image Include="Resources\cursor.png" />
+    <Image Include="Resources\info.png" />
+    <Image Include="Resources\person.png" />
+    <Image Include="Resources\sick person.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="packages\glfw.3.4.0\build\native\glfw.targets" Condition="Exists('packages\glfw.3.4.0\build\native\glfw.targets')" />
